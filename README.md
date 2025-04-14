@@ -15,3 +15,10 @@
 8. Update the dvc.yaml
 
 
+Run this to export as env variables:
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/yashviiishah/MLOps.mlflow/
+
+export MLFLOW_TRACKING_USERNAME=yashviiishah
+
+export MLFLOW_TRACKING_PASSWORD=3231a18250cb655d859be9f158ddaf2e3716ab82

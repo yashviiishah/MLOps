@@ -22,3 +22,5 @@ export MLFLOW_TRACKING_URI=https://dagshub.com/yashviiishah/MLOps.mlflow/
 export MLFLOW_TRACKING_USERNAME=yashviiishah
 
 export MLFLOW_TRACKING_PASSWORD=3231a18250cb655d859be9f158ddaf2e3716ab82
+
+828344885808.dkr.ecr.us-east-1.amazonaws.com/apdproj

@@ -10,6 +10,15 @@ from cnnClassifier.utils.common import read_yaml, create_directories,save_json
 class Evaluation:
     def __init__(self, config: EvaluationConfig):
         self.config = config
+        self.training_data = "artifacts/Data"  # Updated path
+        self.path_of_model = "artifacts/training/model.h5"  # Example model path
+        self.mlflow_uri = "https://dagshub.com/your_repo/mlflow"  # Example MLFlow URI
+        self.params_image_size = [224, 224, 3]  # Example image size
+        self.params_batch_size = 32  # Example batch size
+        self.all_params = {
+            "param1": "value1", 
+            "param2": "value2"
+        }
 
     
     def _valid_generator(self):
